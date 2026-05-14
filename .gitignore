@@ -1,0 +1,63 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+logs_*/
+*.log
+
+
+# Generated / trained models
+exp_models/
+tflite_models/
+fea_ext_bin_models/
+fin_tun_bin_models/
+*.tflite
+*.h5
+*.keras
+*.pb
+saved_model.pb
+variables/
+
+# Datasets - usually too large for GitHub
+datasets/
+../datasets/
+data/
+GTSRB/
+FLOWERS/
+CIFAR10/
+
+# Backups created by scripts
+backup_before_*/
+backup_before_all_from_zero_*/
+
+# Temporary files
+tmp/
+temp/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.sh
+
+
+README_VIETNAMESE.md
+BAMA_improvement1_PGD_MIFGSM.py

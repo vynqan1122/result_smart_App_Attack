@@ -1,0 +1,10 @@
+tensorflow==2.8.0
+protobuf==3.20.3
+numpy==1.23.5
+matplotlib
+pillow
+tqdm
+foolbox==3.3.3
+eagerpy==0.30.0
+tensorflow-datasets
+pandas

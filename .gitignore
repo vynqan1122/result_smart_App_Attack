@@ -41,9 +41,7 @@ variables/
 datasets/
 ../datasets/
 data/
-GTSRB/
-FLOWERS/
-CIFAR10/
+
 
 # Backups created by scripts
 backup_before_*/
@@ -57,7 +55,3 @@ temp/
 *.tar.gz
 *.rar
 *.sh
-
-
-README_VIETNAMESE.md
-BAMA_improvement1_PGD_MIFGSM.py

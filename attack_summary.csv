@@ -1,0 +1,10 @@
+dataset,backbone,baseline,attack_algo,model_name,epsilon,rounds,num_images,mean_success_rate,json_path
+GTSRB,MobileNetV2,PMA,FGSM,MobileNetV2_GTSRB_BAMA_stop_sim,8,3,20,0.1,results_json/GTSRB/MobileNetV2/attacks/PMA/FGSM/PMA_FGSM_MobileNetV2_GTSRB_BAMA_stop_sim.json
+GTSRB,MobileNetV2,PMA,CAN,MobileNetV2_GTSRB_BAMA_stop_sim,20,3,20,0,results_json/GTSRB/MobileNetV2/attacks/PMA/CAN/PMA_CAN_MobileNetV2_GTSRB_BAMA_stop_sim.json
+GTSRB,MobileNetV2,PMA,CW,MobileNetV2_GTSRB_BAMA_stop_sim,20,3,20,0,results_json/GTSRB/MobileNetV2/attacks/PMA/CW/PMA_CW_MobileNetV2_GTSRB_BAMA_stop_sim.json
+GTSRB,MobileNetV2,BAMA,FGSM,MobileNetV2_GTSRB_BAMA_stop_sim,8,3,20,0.75,results_json/GTSRB/MobileNetV2/attacks/BAMA/FGSM/BAMA_FGSM_MobileNetV2_GTSRB_BAMA_stop_sim.json
+GTSRB,MobileNetV2,BAMA,CAN,MobileNetV2_GTSRB_BAMA_stop_sim,20,3,20,0,results_json/GTSRB/MobileNetV2/attacks/BAMA/CAN/BAMA_CAN_MobileNetV2_GTSRB_BAMA_stop_sim.json
+GTSRB,MobileNetV2,BAMA,CW,MobileNetV2_GTSRB_BAMA_stop_sim,20,3,20,0.8,results_json/GTSRB/MobileNetV2/attacks/BAMA/CW/BAMA_CW_MobileNetV2_GTSRB_BAMA_stop_sim.json
+GTSRB,MobileNetV2,E-BAMA,FGSM,MobileNetV2_GTSRB_E-BAMA_stop_sim,8,3,20,0.85,results_json/GTSRB/MobileNetV2/attacks/E-BAMA/FGSM/E-BAMA_FGSM_MobileNetV2_GTSRB_E-BAMA_stop_sim.json
+GTSRB,MobileNetV2,E-BAMA,CAN,MobileNetV2_GTSRB_E-BAMA_stop_sim,20,3,20,0.033333333,results_json/GTSRB/MobileNetV2/attacks/E-BAMA/CAN/E-BAMA_CAN_MobileNetV2_GTSRB_E-BAMA_stop_sim.json
+GTSRB,MobileNetV2,E-BAMA,CW,MobileNetV2_GTSRB_E-BAMA_stop_sim,20,3,20,0.8,results_json/GTSRB/MobileNetV2/attacks/E-BAMA/CW/E-BAMA_CW_MobileNetV2_GTSRB_E-BAMA_stop_sim.json

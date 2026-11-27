@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this reproduction, cite its repository commit and the original Smart App Attack study listed in references."
+title: "Result Smart App Attack: Research Reproduction and Experimental Artifacts"
+type: software
+authors:
+  - name: "vynqan1122"
+repository-code: "https://github.com/vynqan1122/result_smart_App_Attack"
+url: "https://github.com/vynqan1122/result_smart_App_Attack"
+keywords:
+  - adversarial machine learning
+  - AI security
+  - reproducibility
+  - TensorFlow Lite
+  - model robustness
+references:
+  - type: article
+    title: "Smart App Attack: Hacking Deep Learning Models in Android Apps"
+    authors:
+      - family-names: Huang
+        given-names: Yujin
+      - family-names: Chen
+        given-names: Chunyang
+    journal: "IEEE Transactions on Information Forensics and Security"
+    year: 2022
+    volume: 17
+    start: 1827
+    end: 1840
+    doi: "10.1109/TIFS.2022.3172213"
